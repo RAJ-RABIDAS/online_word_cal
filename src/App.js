@@ -16,12 +16,12 @@ function App() {
       setMode("dark");
       document.body.style.backgroundColor = "#031940";
       showAlert("dark mode has been enabled", "success");
-      document.title = "Icoder- Dark mode";
+      document.title = "Text analyser |HR - Dark mode";
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
       showAlert("light mode has been enabled", "success");
-      document.title = "Icoder - Light mode";
+      document.title = "Text analyzer | HR - Light mode";
     }
   };
 
@@ -40,7 +40,11 @@ function App() {
     <>
       {/* <Router> */}
       <Navbar
+<<<<<<< HEAD
         title="HR Text Analyzer"
+=======
+        title=" Text analyzer"
+>>>>>>> 863fc580b9229d109f117353461c37c642e231ef
         aboutText="About"
         mode={mode}
         toggleMode={toggleMode}
