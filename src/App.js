@@ -40,7 +40,7 @@ function App() {
     <>
       {/* <Router> */}
       <Navbar
-        title=" Icoder2"
+        title=" Text analyzer"
         aboutText="About"
         mode={mode}
         toggleMode={toggleMode}
